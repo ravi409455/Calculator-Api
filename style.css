@@ -1,0 +1,78 @@
+@import url(https://fonts.googleapis.com/css?family=PIXym bols+Digit);
+body{
+    background-image: url(Classic-Background-Images-For-Wordpress-Blogs-38.jpg);
+    background-size: cover;
+    padding: 0;
+    margin: 0;
+    background-position: center;
+    padding-top: 10vh;
+}
+.text{
+    font-size: 50px;
+    position: absolute;
+    font-family: cursive;
+    display:inline-block;
+    width: 25%;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #e5e5e5;
+    text-shadow: 0 0 10px  #000;
+}
+#text1{
+    
+    left: 100px;
+    float: left;
+}
+#text2{
+    right: 100px;
+    float: right;
+}
+
+
+img{
+    width: 300px;
+    border-radius: 18px;
+    display: block;
+    margin: 0 auto;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: -1;
+}
+
+.button{
+    width: 48px;
+    height:52px;
+    font-family:monospace;
+    font-size: 25px;
+    margin: 4px;
+    border-radius: 4px;
+    background: #fff;
+    box-shadow: 1px 1px 5px rgba(0,0,0,0.5);
+    transition-duration: 0.5;
+    outline: none;
+}
+
+.button:hover {
+    box-shadow: 1px 1px 3px  rgba(0,0,0,0.75);
+}
+
+.button:active {
+    box-shadow: 0px 0px 3px  rgba(0,0,0,1);
+    transform: translate(1px,1px);
+}
+.display{
+    float: right;
+    height:100px;
+    text-align: right;
+    font-size: 65px;
+    font-family:'PIXymbols Digit'; 
+    background: none;
+    border: none;
+    margin: 0 auto;
+}
+#keys div{
+    
+    margin: 0 auto;
+    width: 240px;
+}
